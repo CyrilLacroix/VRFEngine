@@ -43,7 +43,7 @@ namespace VRFEngine.Data
             }
             catch (Exception e)
             {
-                throw e;
+                throw new Exception("EF Database Migration Exception", e);
             }
             context.EnsureSeedDataForContext();
         }
