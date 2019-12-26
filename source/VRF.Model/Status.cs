@@ -1,5 +1,3 @@
-using System;
-
 namespace VRFEngine.Model
 {
     public enum Status

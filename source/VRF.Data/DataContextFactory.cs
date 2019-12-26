@@ -11,7 +11,7 @@ namespace VRFEngine.Data
                 .UseSqlite("DataSource=VRFEngineDB")
                 .Options;
 
-            return new DataContext(options); ;
+            return new DataContext(options);
         }
     }
 }

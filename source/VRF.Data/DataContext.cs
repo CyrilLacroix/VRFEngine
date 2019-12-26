@@ -24,6 +24,7 @@ namespace VRFEngine.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            // Define here model relationship
         }
     }
 
@@ -40,9 +41,9 @@ namespace VRFEngine.Data
                 // catch exception for test in memory
                 // TODO fix UnitTests on a local db
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                throw;
+                throw e;
             }
             context.EnsureSeedDataForContext();
         }

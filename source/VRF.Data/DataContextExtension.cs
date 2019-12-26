@@ -7,8 +7,7 @@ namespace VRFEngine.Data
         [MethodImpl(MethodImplOptions.Synchronized)]
         public static void EnsureSeedDataForContext(this DataContext context)
         {
-
-
+            // Seed databse here
         }
     }
 }
