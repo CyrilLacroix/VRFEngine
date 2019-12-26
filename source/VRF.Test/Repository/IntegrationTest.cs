@@ -1,5 +1,6 @@
 using VRFEngine.Data;
 using VRFEngine.Model;
+using VRFEngine.Common.Service;
 using VRFEngine.Repository.Implementation;
 using VRFEngine.Repository.Interface;
 using VRFEngine.Test.Helper;

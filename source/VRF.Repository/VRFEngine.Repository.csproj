@@ -14,6 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\VRF.Data\VRFEngine.Data.csproj" />
     <ProjectReference Include="..\VRF.Model\VRFEngine.Model.csproj" />
+    <ProjectReference Include="..\VRF.Common\VRFEngine.Common.csproj" />
   </ItemGroup>
 
 </Project>

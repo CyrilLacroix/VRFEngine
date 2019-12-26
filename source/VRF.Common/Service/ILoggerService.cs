@@ -1,6 +1,6 @@
 using System;
 
-namespace VRFEngine.Repository.Interface
+namespace VRFEngine.Common.Service
 {
     /// <summary>
     /// Provides a wrapper implentation for the Logger framework.
